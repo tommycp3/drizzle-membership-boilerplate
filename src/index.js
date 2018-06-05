@@ -7,6 +7,7 @@ import { DrizzleProvider } from 'drizzle-react'
 // Layouts
 import App from './App'
 import HomeContainer from './layouts/home/HomeContainer'
+import Transparency from './layouts/transparency/Transparency'
 import { LoadingContainer } from 'drizzle-react-components'
 
 import store from './store'
@@ -21,6 +22,7 @@ ReactDOM.render((
     <Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={HomeContainer} />
+        <Route path="transparency" component={Transparency} />
       </Route>
     </Router>
     {/* </LoadingContainer> */}
