@@ -9,6 +9,31 @@ class Home extends Component {
     return (
       <LoadingContainer>
         <main className="container">
+          <div>
+            <h1>Finally, welcome to a business you can trust.</h1>
+
+            <p>Hey we are actively trying to solve xxxx as well, and we believe the solution to solving x firmly lies in adopting blockchain technology in our everyday lives.</p>
+
+            <p>To learn how this system works, we’d like to take you through executing your first blockchain transaction.</p>
+
+            <p>The steps below will show you how to buy Ethereum tokens, and then put them into this system.</p>
+
+            <ol>
+              <li>Purchase bitcoin and convert to Ether at CoinTree.com.au</li>
+              <li>Install MetaMask Chrome Extension</li>
+              <li>Generate Wallet</li>
+              <li>Send Ether to MetaMask Account</li>
+              <li>Execute your first transaction below.</li>
+
+            </ol>
+            <h1>FORM HERE</h1>
+
+
+
+
+
+          </div>
+
           <div className="pure-g">
             <div className="pure-u-1-1 header">
               <img src={logo} alt="drizzle-logo" />
