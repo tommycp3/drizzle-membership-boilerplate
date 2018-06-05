@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
 import logo from '../../logo.png'
 import { LoadingContainer } from 'drizzle-react-components'
+import { Button } from 'semantic-ui-react'
+
 
 
 class Home extends Component {
@@ -10,6 +12,7 @@ class Home extends Component {
       <LoadingContainer>
         <main className="container">
           <div>
+          <Button>Click Here</Button>
             <h1>Finally, welcome to a business you can trust.</h1>
 
             <p>Hey we are actively trying to solve xxxx as well, and we believe the solution to solving x firmly lies in adopting blockchain technology in our everyday lives.</p>
