@@ -3,6 +3,7 @@ import { AccountData, ContractData, ContractForm } from 'drizzle-react-component
 import logo from '../../logo.png'
 import { LoadingContainer } from 'drizzle-react-components'
 import { Button } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 
 
 
@@ -12,14 +13,23 @@ class Home extends Component {
       <LoadingContainer>
         <main className="container">
           <div>
-          <Button>Click Here</Button>
-            <h1>Finally, welcome to a business you can trust.</h1>
+            <Button>Click Here</Button>
+            <Button>Click Here</Button>
 
-            <p>Hey we are actively trying to solve xxxx as well, and we believe the solution to solving x firmly lies in adopting blockchain technology in our everyday lives.</p>
+            <Header size='huge'>Welcome to a system where you don't have to blidly trust us</Header>
+            <h1></h1>
 
-            <p>To learn how this system works, we’d like to take you through executing your first blockchain transaction.</p>
+            <p>Hey we are actively trying to solve the worlds connectivity needs, and we believe the solution to solving connectivey firmly lies in the adoption blockchain technology.</p>
 
+            <p>To learn how this system works, and why you don't need to trust our word, we like to invite you to execute your furst Smart Contract.</p>
+
+            <p>In order to execute your first smart contract, you will need to buy some Ethereum.  </p>
             <p>The steps below will show you how to buy Ethereum tokens, and then put them into this system.</p>
+
+            <Header size='medium'>What you can Expect</Header>
+
+
+            <p>The steps below will show you how to buy Ethereum tokens, and then use them to execute a transaction.</p>
 
             <ol>
               <li>Purchase bitcoin and convert to Ether at CoinTree.com.au</li>
@@ -27,7 +37,6 @@ class Home extends Component {
               <li>Generate Wallet</li>
               <li>Send Ether to MetaMask Account</li>
               <li>Execute your first transaction below.</li>
-
             </ol>
             <h1>FORM HERE</h1>
 
