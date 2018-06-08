@@ -14,6 +14,7 @@ class Home extends Component {
         <main className="container">
           <div>
             <Button>Click Here</Button>
+            <br />
             <Button>Click Here</Button>
 
             <Header size='huge'>Welcome to a system where you don't have to blidly trust us</Header>
