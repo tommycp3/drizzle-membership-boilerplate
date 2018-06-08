@@ -21,11 +21,6 @@ Git clone this repo
 git clone https://github.com/tommycp3/drizzle-membership-boilerplate.git
 ```
 
-
-```
-npm run chain
-```
-
 Install MetaMask browser extention and ensure you have at least 1 generated account.
 
 * [MetaMask](https://metamask.io/) - The web framework used
@@ -54,7 +49,8 @@ IMPORANT Gotcha - make sure you refresh your profile instance each time your res
 source ~/.profile
 ```
 
-Open project folder in console and start the testing chain
+Open project folder in console and start the testing chain 
+Test chain is a docker image thanks to foam: https://github.com/f-o-a-m/cliquebait
 
 ```
 npm run chain
