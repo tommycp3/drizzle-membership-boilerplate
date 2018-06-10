@@ -33,3 +33,6 @@ const store = createStore(
 sagaMiddleware.run(rootSaga)
 
 export default store
+
+// FURTHER RESEARCH
+// Video on how to connect the redux store to firebase: https://www.youtube.com/watch?v=UHJq5NOtNG4
