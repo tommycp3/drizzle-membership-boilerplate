@@ -9,6 +9,7 @@ import App from './App'
 import HomeContainer from './layouts/home/HomeContainer'
 import Transparency from './layouts/transparency/Transparency'
 import { LoadingContainer } from 'drizzle-react-components'
+import Dashboard from './layouts/dashboard/Dashboard'
 
 import store from './store'
 import drizzleOptions from './drizzleOptions'
@@ -25,6 +26,7 @@ ReactDOM.render((
       <Route path="/" component={App}>
         <IndexRoute component={HomeContainer} />
         <Route path="transparency" component={Transparency} />
+        <Route path="dashboard" component={Dashboard} />
       </Route>
     </Router>
     {/* </LoadingContainer> */}
