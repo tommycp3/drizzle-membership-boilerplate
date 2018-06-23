@@ -23,13 +23,9 @@ class Home extends Component {
             <p>Hey we are actively trying to solve the worlds connectivity needs, and we believe the solution to solving connectivey firmly lies in the adoption blockchain technology.</p>
 
             <p>To learn how this system works, and why you don't need to trust our word, we like to invite you to execute your furst Smart Contract.</p>
-
             <p>In order to execute your first smart contract, you will need to buy some Ethereum.  </p>
             <p>The steps below will show you how to buy Ethereum tokens, and then put them into this system.</p>
-
             <Header size='medium'>What you can Expect</Header>
-
-
             <p>The steps below will show you how to buy Ethereum tokens, and then use them to execute a transaction.</p>
 
             <ol>
@@ -40,11 +36,6 @@ class Home extends Component {
               <li>Execute your first transaction below.</li>
             </ol>
             <h1>FORM HERE</h1>
-
-
-
-
-
           </div>
 
           <div className="pure-g">
@@ -98,5 +89,4 @@ class Home extends Component {
     )
   }
 }
-
 export default Home
