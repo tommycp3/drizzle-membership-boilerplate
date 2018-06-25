@@ -1,6 +1,7 @@
 import React from 'react'
 import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
 import { LoadingContainer } from 'drizzle-react-components'
+import { Image } from 'semantic-ui-react'
 
 
 const Stanthorpe = () => (
@@ -9,6 +10,7 @@ const Stanthorpe = () => (
                 <div className="pure-u-1-1 header">
                     <h1>Stanthrope Network Plans</h1>
                     <p>Here are the current Network plans</p>
+                    <Image src='https://content.screencast.com/users/tommycp2/folders/Snagit/media/2ec2c7dc-069e-4acd-a06d-ba6ef20b972d/2018-06-25_20-28-44.png' fluid />
 
                     <br /><br />
                 </div>
