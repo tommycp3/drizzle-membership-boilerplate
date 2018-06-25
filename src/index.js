@@ -10,6 +10,7 @@ import HomeContainer from './layouts/home/HomeContainer'
 import Transparency from './layouts/transparency/Transparency'
 import { LoadingContainer } from 'drizzle-react-components'
 import Dashboard from './layouts/dashboard/Dashboard'
+import Stanthorpe from './layouts/stanthorpe/Stanthorpe'
 
 import store from './store'
 import drizzleOptions from './drizzleOptions'
@@ -27,6 +28,7 @@ ReactDOM.render((
         <IndexRoute component={HomeContainer} />
         <Route path="transparency" component={Transparency} />
         <Route path="dashboard" component={Dashboard} />
+        <Route path="stanthorpe" component={Stanthorpe} />
       </Route>
     </Router>
     {/* </LoadingContainer> */}
