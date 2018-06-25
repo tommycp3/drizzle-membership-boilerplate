@@ -1,7 +1,7 @@
 import React from 'react'
 import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
 import { LoadingContainer } from 'drizzle-react-components'
-import { Image } from 'semantic-ui-react'
+import { Image, Button } from 'semantic-ui-react'
 
 
 const Stanthorpe = () => (
@@ -34,6 +34,11 @@ const Stanthorpe = () => (
 
         <div>
             <p>asdfasd</p>
+        </div>
+
+        <div>
+            <Button floated='right' primary>Buy dCom Tokens</Button>
+            
         </div>
     </main>
 )
