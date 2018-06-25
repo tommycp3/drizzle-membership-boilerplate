@@ -3,7 +3,7 @@ import { AccountData, ContractData, ContractForm } from 'drizzle-react-component
 import logo from '../../logo.png'
 import { LoadingContainer } from 'drizzle-react-components'
 import { Button } from 'semantic-ui-react'
-import { Header } from 'semantic-ui-react'
+import { Header, Input } from 'semantic-ui-react'
 
 
 
@@ -13,7 +13,10 @@ class Home extends Component {
       <LoadingContainer>
         <main className="container">
           <div>
+
             <Button>Click Here</Button>
+            <br />
+            <Input fluid icon='search' placeholder='This is my first react search bar...' />
             <br />
             <Button>Click Here</Button>
 
