@@ -28,7 +28,7 @@ ReactDOM.render((
         <IndexRoute component={HomeContainer} />
         <Route path="transparency" component={Transparency} />
         <Route path="dashboard" component={Dashboard} />
-        <Route path="stanthorpe" component={Stanthorpe} />
+        <Route path="australia/stanthorpe" component={Stanthorpe} />
       </Route>
     </Router>
     {/* </LoadingContainer> */}
