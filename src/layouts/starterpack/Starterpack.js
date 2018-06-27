@@ -18,6 +18,7 @@ export default class Starterpack extends Component {
     return (
 
         <div className="container" > 
+        <h3>How to to get acess to AOC starter pack</h3>
       <Accordion fluid styled>
         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
           <Icon name='dropdown' />
