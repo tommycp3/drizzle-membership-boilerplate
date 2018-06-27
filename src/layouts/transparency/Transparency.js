@@ -16,7 +16,8 @@ const Transparency = () => (
                 <LoadingContainer>
                     <div className="pure-u-1-1">
                         <h2>Active Account</h2>
-                        <AccountData accountIndex="0" units="ether" precision="3" />
+                        /* put brackets around the variables being passed to AccountData Module */
+                        <AccountData accountIndex={0} units={"ether"} precision={3} />
 
                         <br /><br />
                     </div>
