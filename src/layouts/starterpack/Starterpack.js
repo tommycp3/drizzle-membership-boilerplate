@@ -32,7 +32,7 @@ export default class Starterpack extends Component {
                     <List.Item>Governments departments to trust each other</List.Item>
                     <List.Item>Banks to trust each other</List.Item>
                     <List.Item>Mend the devide between corporations, government and citizens</List.Item>
-                    <List.Item>And enable divine human beings to trust each other without the need for a middle man</List.Item>
+                    <List.Item>And truely live the peer to peer dream where we begin treat eachother as equals</List.Item>
                 </List>
 
                 <p>Fundamentally we are dealing with the erosion of trust in our fragile society.</p>
