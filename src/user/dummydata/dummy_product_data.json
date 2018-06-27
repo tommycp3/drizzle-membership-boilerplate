@@ -1,0 +1,11 @@
+[
+    {
+      "productID": "5b336927d890d60b8c808d75",
+      "productName": "How to measure intangible value",
+      "productURL": "",
+      "numberOfSales": 704,
+      "totalSalesinETH": 88.593594,
+      "saleTransactions": ["_txHash0", "_txHash1","_txHash2"],
+      "isActive": true
+    }
+  ]

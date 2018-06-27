@@ -1,0 +1,23 @@
+[
+    {
+      "_txHash": "0x427474a013cbecefb6caf30893dccc3e362dce78b81603501f7457b5e4d6ec1e",
+      "ethRefererAddress": "0xcc62a08e24e75bfdb00733d17f43fbc57c5da242",
+      "ethBuyerAddress": "0x11a5aa0d30a834cae76d5e0b404e0c880e698eb4",
+      "_comment":"the ether buyer addres can be taken from the msg.sender of the transaction",
+      "productID": 3,
+      "valueETH": 0.1,
+      "isActive": true,
+      "name": {
+        "first": "Estrada",
+        "last": "Franklin"
+      },
+      "company": "TRIPSCH",
+      "email": "estrada.franklin@tripsch.ca",
+      "phone": "+1 (847) 560-3622",
+      "address": "511 Bragg Court, Eggertsville, Kansas, 9956",
+      "about": "Pariatur commodo consequat exercitation fugiat consectetur duis irure pariatur enim elit nostrud anim sunt. Pariatur tempor sunt pariatur velit ea elit incididunt enim aliquip nostrud sit. Mollit reprehenderit non ad laborum officia commodo et ea magna et aliquip nisi eiusmod. Ut ea consequat irure enim excepteur ad et pariatur exercitation elit sint officia Lorem consectetur. Ullamco fugiat ut Lorem nostrud voluptate velit magna labore duis culpa irure cillum id.",
+      "latitude": "-17.61846",
+      "longitude": "130.67266"
+    }
+      ]
+   
