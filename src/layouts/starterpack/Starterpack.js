@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion, Icon, List } from 'semantic-ui-react'
+import { Accordion, Icon, List, Message } from 'semantic-ui-react'
 
 export default class Starterpack extends Component {
     state = { activeIndex: 0 }
@@ -135,6 +135,18 @@ export default class Starterpack extends Component {
                         </p>
                     </Accordion.Content>
                 </Accordion>
+
+                <br />
+
+                <div>
+                    <Message size='mini' warning>
+                        <Message.Header>Warning!</Message.Header>
+                        <p>Until you understand how to protect yourself from hackers we advise not to hold more than 0.3 Ether.  We will teach you how to manage large sums of value on the inside.</p>
+                    </Message>
+                </div>    
+
+                
+                
 
             </div >
         )
