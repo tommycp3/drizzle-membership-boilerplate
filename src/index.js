@@ -11,6 +11,7 @@ import Transparency from './layouts/transparency/Transparency'
 import { LoadingContainer } from 'drizzle-react-components'
 import Dashboard from './layouts/dashboard/Dashboard'
 import Stanthorpe from './layouts/stanthorpe/Stanthorpe'
+import Starterpack from './layouts/starterpack/Starterpack.js'
 
 import store from './store'
 import drizzleOptions from './drizzleOptions'
@@ -29,6 +30,7 @@ ReactDOM.render((
         <Route path="transparency" component={Transparency} />
         <Route path="dashboard" component={Dashboard} />
         <Route path="australia/stanthorpe" component={Stanthorpe} />
+        <Route path="blockchain-starter-pack" component={Starterpack} />
       </Route>
     </Router>
     {/* </LoadingContainer> */}
