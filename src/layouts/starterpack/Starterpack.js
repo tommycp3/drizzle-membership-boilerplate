@@ -71,6 +71,7 @@ export default class Starterpack extends Component {
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 0}>
                         <p>In Australia <a target="_blank" href="http://www.cointree.com.au">CoinTree</a> is a site that allows you to convert AUD to cryptocurrencies.</p>
+                        <iframe width="530" height="298" src="https://www.youtube.com/embed/ARkWiMqCu3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </Accordion.Content>
 
                     <Accordion.Title active={activeIndex === 1} index={1} onClick={this.handleClick}>
@@ -78,11 +79,7 @@ export default class Starterpack extends Component {
                         2. Acquire some bitcoin with a Cash Deposit (fastest way)
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 1}>
-                        <p>
-                            There are many breeds of dogs. Each breed varies in size and temperament. Owners often
-                            select a breed of dog that they find to be compatible with their own lifestyle and
-                            desires from a companion.
-                    </p>
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/ARkWiMqCu3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </Accordion.Content>
 
                     <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
@@ -90,16 +87,7 @@ export default class Starterpack extends Component {
                         3. Convert Bitcoin to Ether
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 2}>
-                        <p>
-                            Three common ways for a prospective owner to acquire a dog is from pet shops, private
-                            owners, or shelters.
-                        </p>
-                        <p>
-                            A pet shop may be the most convenient way to buy a dog. Buying a dog from a private
-                            owner allows you to assess the pedigree and upbringing of your dog before choosing to
-                            take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog
-                            who may not find one so readily.
-                        </p>
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/ARkWiMqCu3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </Accordion.Content>
 
                     <Accordion.Title active={activeIndex === 3} index={3} onClick={this.handleClick}>
@@ -107,16 +95,7 @@ export default class Starterpack extends Component {
                         4. Setup Your MetaMask Wallet
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 3}>
-                        <p>
-                            Three common ways for a prospective owner to acquire a dog is from pet shops, private
-                            owners, or shelters.
-                        </p>
-                        <p>
-                            A pet shop may be the most convenient way to buy a dog. Buying a dog from a private
-                            owner allows you to assess the pedigree and upbringing of your dog before choosing to
-                            take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog
-                            who may not find one so readily.
-                        </p>
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/ARkWiMqCu3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </Accordion.Content>
 
                     <Accordion.Title active={activeIndex === 4} index={4} onClick={this.handleClick}>
@@ -124,16 +103,7 @@ export default class Starterpack extends Component {
                         5. Send Ether to your new MetaMask account
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 4}>
-                        <p>
-                            Three common ways for a prospective owner to acquire a dog is from pet shops, private
-                            owners, or shelters.
-                        </p>
-                        <p>
-                            A pet shop may be the most convenient way to buy a dog. Buying a dog from a private
-                            owner allows you to assess the pedigree and upbringing of your dog before choosing to
-                            take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog
-                            who may not find one so readily.
-                        </p>
+                    <iframe width="530" height="298" src="https://www.youtube.com/embed/ARkWiMqCu3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </Accordion.Content>
                 </Accordion>
 
