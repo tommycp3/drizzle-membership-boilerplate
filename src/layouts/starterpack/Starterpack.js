@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion, Icon, List, Message } from 'semantic-ui-react'
+import { Accordion, Icon, List, Message, Button } from 'semantic-ui-react'
 
 export default class Starterpack extends Component {
     state = { activeIndex: 0 }
@@ -20,6 +20,7 @@ export default class Starterpack extends Component {
             <div className="container" >
                 <h2>Welcome to The Anatomy of Consensus (AOC)</h2>
                 <p>The best no fluff education system that teaches you the power of blockchain by using it.</p>
+                <br />
 
                 <h4>What is Consensus?</h4>
                 <p>Consensus is when two parties come together on an ongoing shared agreement on a specific topic or course of action.</p>
@@ -144,7 +145,11 @@ export default class Starterpack extends Component {
                         <p>Until you understand how to protect yourself from hackers we advise not to hold more than 0.3 Ether.  We will teach you how to manage large sums of value on the inside.</p>
                     </Message>
                 </div>    
-
+                <br />
+                <div >
+                <Button fluid positive>Execute First Smart Contract</Button>
+                
+                </div>
                 
                 
 
