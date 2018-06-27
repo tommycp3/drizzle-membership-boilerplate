@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Accordion, Icon, List, Message, Button } from 'semantic-ui-react'
+import { Accordion, Icon, List, Message, Button, Input } from 'semantic-ui-react'
+import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
 
 export default class Starterpack extends Component {
     state = { activeIndex: 0 }
@@ -117,6 +118,7 @@ export default class Starterpack extends Component {
                 </div>    
                 <br />
                 <div >
+                <Input fluid placeholder='ENTER ETHEREM ACCOUNT HERE OF YOUR REFERRER HERE' />
                 <Button fluid positive>Execute First Smart Contract</Button>
                 
                 </div>
