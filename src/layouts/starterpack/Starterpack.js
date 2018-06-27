@@ -118,6 +118,7 @@ export default class Starterpack extends Component {
                 </div>    
                 <br />
                 <div >
+                    <p>Enter the etheruem account of the person who referred you if you didn't have it attached to your invite link.</p>
                 <Input fluid placeholder='ENTER ETHEREM ACCOUNT HERE OF YOUR REFERRER HERE' />
                 <Button fluid positive>Execute First Smart Contract</Button>
                 
