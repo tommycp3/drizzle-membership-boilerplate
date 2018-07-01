@@ -14,12 +14,19 @@ module.exports = {
       host: "localhost",
       port: 8545,
       network_id: "*" // Match any network id
+    },
+    ropsten: {
+      provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/"+infura_apikey),
+      network_id: 3,
+      gas: 500000
     }
   },
   solc: {
-    optimizer: {
+    optimizer: { 
       enabled: true,
       runs: 500
     }
   } 
 };
+
+// ropsten settings: https://www.screencast.com/t/IuGi0BETN

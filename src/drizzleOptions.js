@@ -7,7 +7,7 @@ const drizzleOptions = {
     block: false,
     fallback: {
       type: 'ws',
-      url: 'ws://127.0.0.1:8545'
+      url: 'ws://127.0.0.1:8545' // replace with ws://ropsten.infura.io/ws for using infura to ropsten make sure you change network on metamask as well.
     }
   },
   contracts: [
