@@ -1,3 +1,12 @@
+var HDWalletProvider = require("truffle-hdwallet-provider");
+require('dotenv').config()
+
+
+var infura_apikey = process.env.INFURATOKEN;
+var mnemonic = process.env.MNEMONIC;
+
+
+
 module.exports = {
   migrations_directory: "./migrations",
   networks: {
